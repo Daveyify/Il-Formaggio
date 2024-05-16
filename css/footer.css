@@ -1,0 +1,44 @@
+.footer{
+    background-color: #f99f24;
+    padding: 2rem;
+}
+
+.footer img{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 48%;
+}
+
+.footer h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.footer p{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.footer a{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        background-color: #f1b259;
+    }
+    .footer img{
+        width: 3rem;
+        height: 3rem;
+        margin-left: 44%;
+    }
+
+
+}

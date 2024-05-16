@@ -1,0 +1,200 @@
+.info2{
+    width: 50%;
+    height: 50%;
+}
+
+.title{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.banner{
+    background-color: #f99f24;
+}
+
+.menu{
+    padding: 1%;
+    background-color: #eebf79;
+}
+
+.menu h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.menu h2{
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu h5{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu1 h2{
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu1 h5{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu p{
+    text-align: justify;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-body{
+    background-color: #b4905a;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.menu1{
+    background-color: #f0b057;
+}
+
+.menu1 h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.menu1 p{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about{
+    background-color: #f99f24;
+}
+
+.about h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.about p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.about h5{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+}
+
+.si{
+    background-color: #b4905a;
+}
+
+.domicilios{
+    background-color: #f0b057;
+}
+
+.domicilios h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.domicilios p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.contenedor-mapa {
+    align-content: center;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding-top: 70%;
+    margin-left: 42vh;
+}
+
+.mapa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contacto{
+    background-color:  #f0b057;
+}
+
+.contacto h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.contacto p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 00;
+    font-style: normal; 
+}
+
+.caja-pizza{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contacto{
+        background-color: #f99f24;
+    }
+
+    .contenedor-mapa {
+        align-content: center;
+        position: relative;
+        width: 50%;
+        height: 50%;
+        padding-top: 70%;
+        margin-left: 27%;
+    }
+}
